@@ -1,7 +1,6 @@
 #top {
-    background-image: url("images.jpg");
-    background-color: #cccccc;
-    height: 200px;
+    background-image: url("color.jpg");
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,20 +10,25 @@ p {
     display: inline;
     font-family: cursive;
     font-size: 52px;
-    color: #842994f5;
-    text-shadow: burlywood;
+    color: black;
     text-shadow: 3px 3px 5px white;
+    background-color: #ffffff4a;
     }
-#login {
-    background-image: url("learning-fun.jpg");
+    nav {
+        position: relative;
+        top: 70px;
+    }
+.flex-container {
+    background-image: url("paper-color.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     }
 div.relative {
     position: relative;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    border: 3px solid #73AD21;
+    border: 3px solid rgb(147, 125, 208, 0.44);
     } 
 div.absolute {
     padding-top: 30px;
@@ -33,8 +37,8 @@ div.absolute {
     padding-bottom: 30px;
     border-left-width: 20px;
     position: absolute;
-    top: 90px;
-    right: 200px;
+    top: 100px;
+    right: 100px;
     width: 192px;
     height: 180px;
     border: 7px solid #0000002b;
@@ -59,12 +63,12 @@ div.abc {
     background-repeat: repeat-y;
     }
 h3 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: 10px;
     font-size: 45px;
     background-image: linear-gradient(#ff00006b, #ffff007a);
     text-align: -webkit-center;
-    color: darkgreen;
+    color: darkcyan;
     text-shadow: 4px 4px 5px white;
     }
 #name {

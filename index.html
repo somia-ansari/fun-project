@@ -11,24 +11,23 @@
 </head>
 
 <body>
-    <header>
-        <div id="top">
-                <nav>
-                    <p> Want to Learn with Fun?</p>
-                </nav>
-        </div>
+    <header id="top">
+        <nav>
+            <p> Want to Learn with Fun?</p>
+        </nav>
     </header>
-    <div id="login" class="relative">
-        <div class="absolute">
-            <form>
-                <label for="name">Enter your Name:</label>
-                <input type="text" id="name" placeholder="Your name here" required>
-                <label for="city">Enter your City:</label>
-                <input type="text" id="city" placeholder="Your city here" required>
-                <button id="zone" type="submit" value="name"><a href="home.html"> Enter the Fun Zone!</a></button>
-            </form>
-        </div>
-    </div>
+    <section class="flex-container">
+        <div id="login" class="relative">
+            <div class="absolute">
+                <form action="home.html">
+                    <label for="name">Enter your Name:</label>
+                    <input type="text" id="name" placeholder="Your name here" required>
+                    <label for="city">Enter your City:</label>
+                    <input type="text" id="city" placeholder="Your city here" required>
+                    <button type="submit" id="zone">Enter Fun Zone!</button>
+                </form>
+            </div>
+    </section>
 </body>
 
 </html>
