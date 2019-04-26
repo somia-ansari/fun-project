@@ -1,23 +1,22 @@
 #top {
     background-image: url("color.jpg");
-    height: 150px;
+    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     }
-p {
+header p {
     display: inline;
     font-family: cursive;
-    font-size: 52px;
+    font-size: 50px;
     color: black;
     text-shadow: 3px 3px 5px white;
     background-color: #ffffff4a;
+    position: relative;
+    top: 30px;
     }
-    nav {
-        position: relative;
-        top: 70px;
-    }
+
 .flex-container {
     background-image: url("paper-color.jpeg");
     background-repeat: no-repeat;
@@ -31,36 +30,26 @@ div.relative {
     border: 3px solid rgb(147, 125, 208, 0.44);
     } 
 div.absolute {
-    padding-top: 30px;
-    padding-left: 60px;
-    padding-right: 70px;
-    padding-bottom: 30px;
-    border-left-width: 20px;
+    padding: 25px;
     position: absolute;
-    top: 100px;
+    top: 85px;
     right: 100px;
-    width: 192px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     border: 7px solid #0000002b;
     background-image: linear-gradient(#ff00006b, #ffff007a);
     }
 form {
+    margin: 32px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     font-size: 25px;
     }
-#zone {
+form button {
     margin-left: 55px;
     margin-top: 13px;
     padding-top: 5px;
     padding-bottom: 5px;
-    }
-div.abc {
-    background-image: url("buttons.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: -webkit-fill-available;
-    background-repeat: repeat-y;
     }
 h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -69,20 +58,45 @@ h3 {
     background-image: linear-gradient(#ff00006b, #ffff007a);
     text-align: -webkit-center;
     color: darkcyan;
-    text-shadow: 4px 4px 5px white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
     }
-#name {
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+form input {
+    padding: 5px;
     }
-#city {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
-#alph {
-    display: inline;
-    height: 200px;
+span img {
+    opacity: 0.8;
+    height: 150px;
+    width: 200px;
+    border: 5px solid rgb(255, 214, 139);
 }
-ol#list li {
-    display: inline;
+#zone:hover {
+    box-shadow: 0 0 15px rgb(180, 245, 143);
+    cursor: pointer;
+    background-color: rgb(209, 41, 139);
+    color: aliceblue;
+    border-color: rgb(165, 23, 23);
+}
+
+span img:hover {
+    height: 150px;
+    border: 8px solid rgb(139, 255, 236);
+    opacity: 1;
+}
+details {
+    display: inline-block;
+}
+summary+img {
+    opacity: 1;
+    display: flex;
+}
+div#a-h {
+padding: 50px;
+}
+div div {
+    display: block;
+}
+footer p {
+    color: rgb(160, 156, 156);
+    background-image: linear-gradient (#ff00006b, #ffff007a);
 }
