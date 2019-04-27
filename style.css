@@ -100,3 +100,47 @@ footer p {
     color: rgb(160, 156, 156);
     background-image: linear-gradient (#ff00006b, #ffff007a);
 }
+div#test,p,select {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+
+}
+div#test p {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow:2px 2px 8px black, 0 0 25px white, 0 0 5px darkblue;
+    color: rgb(105, 206, 65);
+}
+button#check {
+    
+    margin-left: 250px;
+   font-weight: bold;
+   background-image: linear-gradient(rgb(253, 84, 6), rgb(190, 34, 34));
+   font-size: 20px;
+    width: 500px;
+    padding: 10px;
+    color: blue;
+    border-color: gold;
+
+}
+button#check:hover {
+    border-color: rgb(1, 54, 1);
+    color: aliceblue;
+}
+div#cong {
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+}
+#cong h1 {
+    font-size: 55px;
+    color: aliceblue;
+    text-shadow:2px 2px 8px black, 0 0 25px white, 0 0 5px darkblue;
+    margin-top: 0px;
+}
+#cong img {
+    height: 150px;
+    width: 200px;
+}
