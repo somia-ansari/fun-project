@@ -131,6 +131,7 @@ button#check:hover {
 div#cong {
     display: inline-block;
     position: relative;
+    height: 100px;
     margin-top: 0px;
     text-align: center;
 }
@@ -143,4 +144,10 @@ div#cong {
 #cong img {
     height: 150px;
     width: 200px;
+}
+#cong-box {
+    position: static;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
 }
