@@ -14,7 +14,7 @@ header p {
     text-shadow: 3px 3px 5px white;
     background-color: #ffffff4a;
     position: relative;
-    top: 30px;
+    top: 18px;
     }
 
 .flex-container {
@@ -53,7 +53,7 @@ form button {
     }
 h3 {
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 45px;
     background-image: linear-gradient(#ff00006b, #ffff007a);
     text-align: -webkit-center;
