@@ -27,7 +27,6 @@ div.relative {
     position: relative;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    border: 3px solid rgb(147, 125, 208, 0.44);
     } 
 div.absolute {
     padding: 25px;
@@ -64,6 +63,9 @@ h3 {
 form input {
     padding: 5px;
     }
+form input:hover {
+    box-shadow: 0 0 25px white;
+}
 span img {
     opacity: 0.8;
     height: 150px;
@@ -80,7 +82,7 @@ span img {
 
 span img:hover {
     height: 150px;
-    border: 8px solid rgb(139, 255, 236);
+    box-shadow: 0 0 15px rgb(180, 245, 143);
     opacity: 1;
 }
 details {
@@ -166,3 +168,57 @@ nav select:hover {
 nav option {
     background-image: linear-gradient(white, grey)
 }
+#menu-nav {
+    max-width: 1000px;
+    margin: 0px auto;
+    background-image: linear-gradient( rgba(192, 240, 192, 0.527));
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: aqua;
+
+  }
+   
+  #navigation-bar ul {
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0px;
+  }
+  #navigation-bar li {
+    float: left;
+    width: 20%;
+  }
+  #navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+  }
+  #navigation-bar a {
+    color: #848484;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  #navigation-bar a:hover {
+    color: wheat;
+  }
+  #navigation-bar a::before {
+    content: "";
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #e74c3c;
+  }
+  #navigation-bar a:hover::before {
+    right: 0;
+    left: 0;
+  }
+   
+  li {
+      list-style: none;
+  }
