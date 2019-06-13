@@ -5,47 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fun Learning</title>
+    <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Online Fruit Shop</title>
 </head>
 
 <body>
-    <header id="top">
-        <p> Want to Learn with Fun?</p>
+    <header>
+        <h1>Fruit Shop</h1>
     </header>
-    <section class="flex-container">
-        <nav>
-            <div id="menu-nav">
-                <div id="navigation-bar">
-                    <ul>
-                        <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                        <li><a href="#"><i class="fa fa-handshake"></i><span>Services</span></a></li>
-                        <li><a href="#"><i class="fa fa-user"></i><span>About</span></a></li>
-                        <li><a href="#"><i class="fa fa-book"></i><span>Contact</span></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i> <span>Blog</span></a></li>
-                    </ul>
-                </div>
+    <main>
+        <section id="pocket">
+            <p>I have Rs.</p><input type="number" min="0">
+        </section>
+        <section id="bill">
+            <p>Your total is Rs.</p><input type="text" value="20">
+        </section>
+        <section id="market">
+            <div class="product">
+                <figure id="apple">
+                    <div class="price">
+                        <p>Rs. <span>10</span></p>
+                    </div>
+                    <img src="images/apple.png" alt="apple">
+                    <figcaption>Apple</figcaption>
+                    <div class="buy">
+                        <button class="decrease" value="Decrease Value">-</button>
+                        <input type="number" min="0" id="apple-number" value="0" />
+                        <button class="increase" value="Increase Value">+</button>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure id="orange">
+                    <div class="price">
+                        <p>Rs. <span>10</span></p>
+                    </div>
+                    <img src="images/orange.png" alt="orange">
+                    <figcaption>Orange</figcaption>
+                    <div class="buy">
+                        <button class="decrease" value="Decrease Value">-</button>
+                        <input type="number" min="0" id="orange-number" value="0" />
+                        <button class="increase" value="Increase Value">+</button>
+                    </div>
+                </figure>
+            </div.buy>
+            <div class="product">
 
+                <figure id="banana">
+                    <div class="price">
+                        <p>Rs. <span>7</span></p>
+                    </div>
+                    <img src="images/banana.png" alt="banana">
+                    <figcaption>Banana</figcaption>
+                    <div class="buy">
+                        <button class="decrease" value="Decrease Value">-</button>
+                        <input type="number" min="0" id="banana-number" value="0" />
+                        <button class="increase" onclick="addOne()" value="Increase Value">+</button>
+                    </div>
+                </figure>
             </div>
-        </nav>
-        <div id="login" class="relative">
-            <div class="absolute">
-                <form action="home.html">
-                    <label for="name">Enter your Name:</label>
-                    <input type="text" id="name" placeholder="Your name here" required>
-                    <label for="city">Enter your City:</label>
-                    <input type="text" id="city" placeholder="Your city here" required>
-                    <button type="submit" id="zone">Enter Fun Zone!</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>This Page is in progress of development</p>
-    </footer>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
