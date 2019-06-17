@@ -35,30 +35,32 @@ main {
     flex-direction: column;
     background-position: fixed;
     } 
-    div.relative{
-        position: relative;
-    }
-div.absolute {
-    padding: 25px;
-    position: absolute;
-    top: 35%;
-    margin: 0;
-    right: 10%;
-    width: 250px;
-    height: 250px;
-    border: 7px solid #0000002b;
-    background-image: linear-gradient(#ff00006b, #ffff007a);
-    }
+    
+#login {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  }
+#login h2{
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
+    color: turquoise;
+    height: fit-content;
+}
 form {
-    margin: 32px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     font-size: 25px;
+    padding: 30px 50px;
+    height: fit-content;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 7px solid #0000002b;
+    background-image: linear-gradient(#ff00006b, #ffff007a);
     }
 form button {
-    margin-left: 55px;
     margin-top: 13px;
-    padding-top: 5px;
+    padding: 10px;
     padding-bottom: 5px;
     background-image: linear-gradient(rgb(233, 77, 103), white);
     border: none;
@@ -244,24 +246,19 @@ nav ul {
 nav{
     margin-top: 10px;
 }
-div.absolute{
-    width: 100%;
-    position:relative;
-    padding: 10px;
-    top: 10%;
-    right: 0;
-    padding: 10px;
-  
-  }
   div#login{
     width: 100%;
     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: 0;
   }
   form {
       margin: 0px;
       display: flex;
       flex-direction: column;
-      width: 100%;
+      padding: 20px;
+       border-radius: 5px;
       }
   form button {
       margin: 0;
@@ -272,5 +269,4 @@ div.absolute{
       border: none;
       border-radius: 3px;
       }
-  
 }
